@@ -2,7 +2,7 @@
 .btn {
     padding: 15px 66px;
     border-radius: 8px;
-    border: none;
+    border: 1px solid transparent;
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
@@ -22,7 +22,7 @@
 }
 
 .btn:active {
-    border: 2px solid rgba(255, 255, 255, .5);
+    border-color: rgba(255, 255, 255, .5);
 }
 
 /* -------- btn-primary -------- */
@@ -31,7 +31,7 @@
 }
 
 .btn_primary:hover {
-    background: #2342C0;
+    background: var(--primary-darken);
 }
 
 /* -------- btn-btn-secondary -------- */
@@ -40,7 +40,7 @@
 }
 
 .btn_secondary:hover {
-    background: #5028C6;
+    background: var(--secondary-darken);
 }
 
 /* -------- btn-alternate -------- */
@@ -51,5 +51,5 @@
 }
 
 .btn_alternate:hover {
-    border-color: #000;
+    border-color: rgb(0, 0, 0);
 }
