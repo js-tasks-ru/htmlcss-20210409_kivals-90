@@ -16,6 +16,9 @@
     cursor: pointer;
     /* Убираем стандартный маркер Firefox */
     list-style: none;
+    display: flex;
+    justify-content: space-between;
+    color: var(--black);
 }
 
 /* Убираем стандартный маркер Chrome */
@@ -23,6 +26,6 @@
     display: none;
 }
 
-.accordion__hidden {
-
+.accordion__hidden-content {
+    color: var(--grey4);
 }
