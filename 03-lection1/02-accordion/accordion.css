@@ -1,1 +1,31 @@
 /* Стилизация аккордеона */
+.accordion {
+}
+
+.accordion__item {
+    border: 2px solid rgba(0, 0, 0, .2);
+    border-radius: 8px;
+    padding: 24px 32px;
+}
+
+.accordion__item + .accordion__item {
+    margin-top: 8px;
+}
+
+.accordion__title {
+    cursor: pointer;
+    /* Убираем стандартный маркер Firefox */
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    color: var(--black);
+}
+
+/* Убираем стандартный маркер Chrome */
+.accordion__title::-webkit-details-marker {
+    display: none;
+}
+
+.accordion__hidden-content {
+    color: var(--grey4);
+}
