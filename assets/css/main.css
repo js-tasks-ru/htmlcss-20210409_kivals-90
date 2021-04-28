@@ -17,12 +17,24 @@
     --secondary-darken: hsl(var(--secondary-h), calc(var(--secondary-s) - 12%) , calc(var(--secondary-l) - 13%) );
     --black: hsl(218, 11%, 15%);
     --grey4: hsl(210, 9%, 31%);
-
+    --blue: hsl(228, 81%, 59%);
     --content-width: 1110px;
 }
 
 * {
     font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100%;
+    line-height: 1;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
 }
 
 .container {
