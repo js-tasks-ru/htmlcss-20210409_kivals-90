@@ -20,13 +20,13 @@
     flex: 1 1 0;
 }
 
-.histogram-orders__title {
+.histogram__title {
     font-family: Inter, sans-serif;
     color: var(--grey4);
     margin-bottom: 20px;
 }
 
-.histogram-orders__count {
+.histogram__count {
     font-family: Inter, sans-serif;
     font-size: 24px;
     color: var(--black);
@@ -38,17 +38,17 @@
     color: var(--blue);
 }
 
-.histogram-lines {
+.histogram__body {
     display: flex;
     align-items: flex-end;
 }
 
-.histogram-lines__item {
+.histogram__item {
     background: var(--blue);
     flex-grow: 1;
     margin-right: 1px;
 }
 
-.histogram-lines__item:last-child {
+.histogram__item:last-child {
     margin-right: 0;
 }
