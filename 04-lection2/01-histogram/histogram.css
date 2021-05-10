@@ -19,6 +19,8 @@
 .histogram__body {
     min-height: 50px;
     flex: 1 1 0;
+    display: flex;
+    align-items: flex-end;
 }
 
 .histogram__title {
@@ -33,16 +35,10 @@
     color: var(--black);
 }
 
-.histogram__link a {
+.histogram__link {
     font-family: Inter, sans-serif;
     text-decoration: none;
     color: var(--blue);
-}
-
-.histogram__body {
-    min-height: 50px;
-    display: flex;
-    align-items: flex-end;
 }
 
 .histogram__item {
