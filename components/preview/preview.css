@@ -9,11 +9,15 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 350px;
+    flex: 1 0 350px;
     height: 367px;
     background: var(--white);
     border-radius: 12px;
     margin-bottom: 30px;
+    margin-right: 10px;
+}
+.preview__card:last-child {
+    margin-right: 0;
 }
 
 .preview__title {
