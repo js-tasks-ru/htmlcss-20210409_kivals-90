@@ -1,0 +1,32 @@
+.preview {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.preview__card {
+    padding: 80px 24px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1 0 350px;
+    height: 367px;
+    background: var(--white);
+    border-radius: 12px;
+    margin-bottom: 30px;
+    margin-right: 10px;
+}
+.preview__card:last-child {
+    margin-right: 0;
+}
+
+.preview__title {
+    font-weight: 500;
+    font-size: 21px;
+    text-align: center;
+}
+
+.preview__content {
+    flex-grow: 1;
+    margin-bottom: 35px;
+}
