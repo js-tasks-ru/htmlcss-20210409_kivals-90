@@ -13,6 +13,7 @@
     --secondary-darken: hsl(var(--secondary-h), calc(var(--secondary-s) - 12%) , calc(var(--secondary-l) - 13%) );
     --black: hsl(218, 11%, 15%);
     --grey2: hsl(203, 13%, 88%);
+    --grey3: hsl(208, 11%, 71%);
     --grey4: hsl(210, 9%, 31%);
     --blue: hsl(228, 81%, 59%);
     --white: hsl(0, 0%, 100%);
