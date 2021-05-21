@@ -1,0 +1,51 @@
+.modal {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1050;
+}
+
+.modal__content {
+    background-color: #fff;
+    position: relative;
+    padding: 30px 40px;
+    border-radius: 8px;
+    width: auto;
+    margin: 10px;
+}
+
+@media (min-width: 576px) {
+    .modal__content {
+        max-width: 500px;
+        margin: 30px auto;
+    }
+}
+
+.modal__title {
+    font-family: Inter, sans-serif;
+    font-weight: 600;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    margin-bottom: 24px;
+}
+
+.modal__text {
+    font-size: 1rem;
+    line-height: 24px;
+}
+
+.modal__close-icon {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    cursor: pointer;
+}
+
+.modal__close-icon:focus,
+.modal__close-icon:hover {
+    opacity: .75;
+}
