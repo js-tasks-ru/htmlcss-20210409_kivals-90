@@ -1,0 +1,19 @@
+.wrapper {
+    height: 100vh;
+    background: url("./public/forest_400.jpg") no-repeat center;
+}
+@media (min-width: 400px) {
+    .wrapper {
+        background: url('./public/forest_768.jpg') no-repeat center;
+    }
+}
+@media (min-width: 768px) {
+    .wrapper {
+        background: url('./public/forest_1024.jpg') no-repeat center;
+    }
+}
+@media (min-width: 1024px) {
+    .wrapper {
+        background: url('./public/forest_2560.jpg') no-repeat center;
+    }
+}
