@@ -43,6 +43,8 @@
     top: 12px;
     right: 12px;
     cursor: pointer;
+    width: 16px;
+    height: 16px;
 }
 
 .modal__close-icon:focus,
