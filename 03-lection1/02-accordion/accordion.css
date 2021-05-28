@@ -29,3 +29,8 @@
 .accordion__hidden-content {
     color: var(--grey4);
 }
+
+.accordion__icon {
+    width: 18px;
+    height: 10px;
+}
